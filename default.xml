@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="github" fetch="git://github.com"/>
+
+  <default revision="main" remote="github" sync-j="8"/>
+
+  <project name="phytec-labs/elements-zephyr" path="zephyr" revision="stable"/>
+  <project name="phytec-labs/elements-zephyr-samples" path="zephyr-samples"/>
+  <project name="phytec-labs/elements-zibal" path="zibal"/>
+  <project name="phytec-labs/elements-vexriscv" path="vexriscv" revision="stable"/>
+  <project name="phytec-labs/elements-openocd" path="openocd" revision="stable"/>
+</manifest>
