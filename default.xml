@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="github-public" fetch="git://github.com"/>
+  <remote  name="github-private" fetch="ssh://git@github.com"/>
+
+  <default revision="master" remote="github-private" sync-j="8"/>
+
+  <project name="phytec/elements-zephyr-dev" remote="github-private" path="zephyr" revision="stable"/>
+  <project name="phytec/elements-zephyr-samples-dev" remote="github-private" path="zephyr-samples" revision="master"/>
+</manifest>
