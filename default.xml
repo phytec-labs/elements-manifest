@@ -7,4 +7,5 @@
 
   <project name="phytec/elements-zephyr-dev" remote="github-private" path="zephyr" revision="stable"/>
   <project name="phytec/elements-zephyr-samples-dev" remote="github-private" path="zephyr-samples" revision="master"/>
+  <project name="phytec/elements-mcu-dev" remote="github-private" path="mcu" revision="master"/>
 </manifest>
