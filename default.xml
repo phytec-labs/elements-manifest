@@ -9,4 +9,5 @@
   <project name="phytec/elements-zephyr-samples-dev" remote="github-private" path="zephyr-samples" revision="master"/>
   <project name="phytec/elements-zibal-dev" remote="github-private" path="zibal" revision="master"/>
   <project name="phytec/elements-vexriscv-dev" remote="github-private" path="vexriscv" revision="master"/>
+  <project name="phytec/elements-openocd-dev" remote="github-private" path="openocd" revision="master"/>
 </manifest>
