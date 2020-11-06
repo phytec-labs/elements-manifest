@@ -3,11 +3,11 @@
   <remote  name="github-public" fetch="git://github.com"/>
   <remote  name="github-private" fetch="ssh://git@github.com"/>
 
-  <default revision="master" remote="github-private" sync-j="8"/>
+  <default revision="main" remote="github-private" sync-j="8"/>
 
   <project name="phytec-labs/elements-zephyr" remote="github-private" path="zephyr" revision="stable"/>
-  <project name="phytec-labs/elements-zephyr-samples" remote="github-private" path="zephyr-samples" revision="master"/>
-  <project name="phytec-labs/elements-zibal" remote="github-private" path="zibal" revision="master"/>
-  <project name="phytec-labs/elements-vexriscv" remote="github-private" path="vexriscv" revision="master"/>
-  <project name="phytec-labs/elements-openocd" remote="github-private" path="openocd" revision="master"/>
+  <project name="phytec-labs/elements-zephyr-samples" remote="github-private" path="zephyr-samples" revision="main"/>
+  <project name="phytec-labs/elements-zibal" remote="github-private" path="zibal" revision="main"/>
+  <project name="phytec-labs/elements-vexriscv" remote="github-private" path="vexriscv" revision="main"/>
+  <project name="phytec-labs/elements-openocd" remote="github-private" path="openocd" revision="main"/>
 </manifest>
